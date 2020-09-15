@@ -1,21 +1,27 @@
 		*{
 			box-sizing: border-box;
+			color: white;
+			text-align: justify;
 
 
 		}
 		h1 {
 			font-size: 175%;
 			text-align: center;
+			color: black;
+			
 
        		}
 
        		p {
-			padding: 10px
+			padding: 30px;
+			margin-top: 30px;
         }
 		.s1 {
 			background-color: gray;
 			border: 1px solid black;
 			margin: 2px;
+			position: relative;
 			
 	
 	
@@ -24,14 +30,15 @@
 			background-color: gray;
 			border: 1px solid black;
 			margin: 2px;
+			position: relative;
 			
-	
 	
 		}
 		.s3 {
 			background-color: gray;
 			border: 1px solid black;
 			margin: 2px;
+			position: relative;
 			
 	
 	
@@ -41,12 +48,12 @@
 			border-width: 1px;
 			border-color: black;
 			width: 100px;
-			position: relative;
-			left: 250px;
+			position: absolute;
+			right: 0px;
 			
 			text-align: center;
 			box-sizing: border-box;
-			margin: 0;
+			margin: 0px;
 			padding: 0;
 
 
@@ -54,11 +61,11 @@
 		}
 
 		.h21{
-			background-color: green;
+			background-color: red;
 		}
 
 		.h22{
-			background-color: yellow;
+			background-color: orange;
 		}
 
 		.h23{
